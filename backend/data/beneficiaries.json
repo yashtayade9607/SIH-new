@@ -1,0 +1,123 @@
+[
+  {
+    "id": 1,
+    "name": "Ramesh Patil",
+    "photo": "images/laptop.jpg",
+    "exif": {
+      "gps": null,
+      "timestamp": "2024-01-15T10:30:00Z"
+    },
+    "location_validation": {
+      "within_radius": null,
+      "distance_in_meters": null,
+      "registered_location": {
+        "lat": 18.5204,
+        "lon": 73.8567
+      }
+    },
+    "authenticity": {
+      "status": "Verified",
+      "score": 3.31,
+      "mean_difference": 3.31
+    },
+    "detected_objects": {
+      "total_objects": 3,
+      "object_summary": {
+        "laptop": 1,
+        "bed": 1,
+        "tv": 1
+      },
+      "detailed_results": [
+        { "object": "laptop", "confidence": 87.04 },
+        { "object": "bed", "confidence": 38.14 },
+        { "object": "tv", "confidence": 33.72 }
+      ]
+    },
+    "status": "Pending",
+    "remarks": ""
+  },
+  {
+    "id": 2,
+    "name": "Sneha Sharma",
+    "photo": "https://picsum.photos/400/300?random=2",
+    "exif": {
+      "gps": {
+        "lat": 19.0760,
+        "lon": 72.8777
+      },
+      "timestamp": "2024-01-16T14:20:00Z"
+    },
+    "location_validation": {
+      "within_radius": true,
+      "distance_in_meters": 150,
+      "registered_location": {
+        "lat": 19.0760,
+        "lon": 72.8777
+      }
+    },
+    "authenticity": {
+      "status": "Suspicious",
+      "score": 1.85,
+      "mean_difference": 1.85
+    },
+    "detected_objects": {
+      "total_objects": 5,
+      "object_summary": {
+        "chair": 2,
+        "table": 1,
+        "mobile": 1,
+        "books": 1
+      },
+      "detailed_results": [
+        { "object": "chair", "confidence": 92.15 },
+        { "object": "table", "confidence": 85.30 },
+        { "object": "mobile", "confidence": 78.45 },
+        { "object": "books", "confidence": 65.20 },
+        { "object": "chair", "confidence": 45.10 }
+      ]
+    },
+    "status": "Pending",
+    "remarks": ""
+  },
+  {
+    "id": 3,
+    "name": "Amit Kumar",
+    "photo": "https://picsum.photos/400/300?random=3",
+    "exif": {
+      "gps": {
+        "lat": 12.9716,
+        "lon": 77.5946
+      },
+      "timestamp": "2024-01-17T09:15:00Z"
+    },
+    "location_validation": {
+      "within_radius": false,
+      "distance_in_meters": 2500,
+      "registered_location": {
+        "lat": 12.9716,
+        "lon": 77.5946
+      }
+    },
+    "authenticity": {
+      "status": "Verified",
+      "score": 4.2,
+      "mean_difference": 4.2
+    },
+    "detected_objects": {
+      "total_objects": 4,
+      "object_summary": {
+        "computer": 1,
+        "monitor": 2,
+        "keyboard": 1
+      },
+      "detailed_results": [
+        { "object": "computer", "confidence": 95.50 },
+        { "object": "monitor", "confidence": 88.75 },
+        { "object": "monitor", "confidence": 82.30 },
+        { "object": "keyboard", "confidence": 76.45 }
+      ]
+    },
+    "status": "Approved",
+    "remarks": "All documents verified and location confirmed."
+  }
+]
